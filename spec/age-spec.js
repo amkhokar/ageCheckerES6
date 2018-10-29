@@ -1,4 +1,4 @@
-import { getEarthLifeExpectancy,getJupiterAge, getMarsAge, getVenusAge, getEarthAge, getMercuryAge } from './../src/age.js';
+import { getMercuryLifeExpectancy, getEarthLifeExpectancy,getJupiterAge, getMarsAge, getVenusAge, getEarthAge, getMercuryAge } from './../src/age.js';
 
 describe('Age', function () {
 
@@ -30,6 +30,11 @@ describe('Age', function () {
   it('should test whether Jupiter age is accurate', function () { 
     var test = 80-55;
     var result = getEarthLifeExpectancy(55);
+    expect(test).toEqual(result);
+  });
+  it('should test whether Jupiter age is accurate', function () { 
+    var test = Math.floor((80-55) * 1.24);
+    var result = getMercuryLifeExpectancy(55);
     expect(test).toEqual(result);
   });
 });

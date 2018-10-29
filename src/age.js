@@ -21,3 +21,7 @@ export function getMarsAge(age) {
 export function getJupiterAge(age) {
   return Math.floor(age / 11.86);
 }
+
+export function getMercuryLifeExpectancy(age) {
+  return Math.floor(Math.abs(80-age) * 1.24);
+}
