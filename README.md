@@ -8,6 +8,7 @@ A program in which the user can input a word and a sentence, and the output will
 
 
 ### Specs
+
 1. Returns age in Earth years.
 2. Returns age in Mercury years.
 3. Returns age in Venus years.
