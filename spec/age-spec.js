@@ -1,4 +1,4 @@
-import { getMarsAge, getVenusAge, getEarthAge, getMercuryAge } from './../src/age.js';
+import { getJupiterAge, getMarsAge, getVenusAge, getEarthAge, getMercuryAge } from './../src/age.js';
 
 describe('Age', function () {
 
@@ -20,6 +20,11 @@ describe('Age', function () {
   it('should test whether Mars age is accurate', function () { 
     var test = Math.floor(42 / 1.88);
     var result = getMarsAge(42);
+    expect(test).toEqual(result);
+  });
+  it('should test whether Jupiter age is accurate', function () { 
+    var test = Math.floor(42 / 11.86);
+    var result = getJupiterAge(42);
     expect(test).toEqual(result);
   });
 });
