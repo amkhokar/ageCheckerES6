@@ -19,12 +19,21 @@ A program in which the user can input a word and a sentence, and the output will
 
 
 ## Setup/Installation Requirements
-
-
+1. Clone this repository.
+2. Open your terminal (or powershell) and type 'npm install' from the root directory of the cloned repository.
+3. Once dependencies are installed, type 'npm start' to run the application or 'npm test' to see the tests (for grading purposes).
 
 ## Known Bugs
-
+No known bugs at this time. 
 ## Technologies Used
+1. Node Package Manager
+2. Jasmine (testing)
+3. Karma (testing)
+4. Bootstrap
+5. Jquery
+6. Webpack
+7. TypeScript
+8. ESLint
 
 ## Support and contact details
 
