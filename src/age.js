@@ -25,3 +25,7 @@ export function getJupiterAge(age) {
 export function getMercuryLifeExpectancy(age) {
   return Math.floor(Math.abs(80-age) * 1.24);
 }
+
+export function getVenusLifeExpectancy(age) {
+  return Math.floor(Math.abs(80-age) * 1.24);
+}
