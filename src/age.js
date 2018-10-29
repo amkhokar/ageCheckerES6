@@ -2,6 +2,10 @@ export function getEarthAge(year) {
   return new Date().getFullYear() - year;
 }
 
+export function getEarthLifeExpectancy(age){
+  return Math.abs(80-age);
+}
+
 export function getMercuryAge(age) {
   return Math.floor(age * 1.24);
 }
