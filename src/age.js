@@ -11,5 +11,5 @@ export function getVenusAge(age) {
 }
 
 export function getMarsAge(age) {
-  return Math.floor(age * 5);
+  return Math.floor(age / 1.88);
 }
