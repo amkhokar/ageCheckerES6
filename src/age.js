@@ -1,31 +1,10 @@
-export function getEarthAge(year) {
-  return new Date().getFullYear() - year;
-}
-
-export function getEarthLifeExpectancy(age){
-  return Math.abs(80-age);
-}
-
-export function getMercuryAge(age) {
-  return Math.floor(age * 1.24);
-}
-
-export function getVenusAge(age) {
-  return Math.floor(age * 1.62);
-}
-
-export function getMarsAge(age) {
-  return Math.floor(age / 1.88);
-}
-
-export function getJupiterAge(age) {
-  return Math.floor(age / 11.86);
-}
-
-export function getMercuryLifeExpectancy(age) {
-  return Math.floor(Math.abs(80-age) * 1.24);
-}
-
-export function getVenusLifeExpectancy(age) {
-  return Math.floor(Math.abs(80-age) * 1.24);
-}
+export const getEarthAge = (year) => new Date().getFullYear() - year;
+export const getEarthLifeExpectancy = (age) => Math.abs(80-age);
+export const getMercuryAge = (age) => Math.floor(age * 1.24);
+export const getVenusAge = (age) => Math.floor(age * 1.62);
+export const getMarsAge = (age) => Math.floor(age / 1.88);
+export const getJupiterAge = (age) =>  Math.floor(age / 11.86);
+export const getMercuryLifeExpectancy = (age) => Math.floor(Math.abs(80-age) * 1.24);
+export const getVenusLifeExpectancy = (age) => Math.floor(Math.abs(80-age) * 1.62);
+export const getMarsLifeExpectancy = (age) => Math.floor(Math.abs(80-age) / 1.88);
+export const getJupiterLifeExpectancy = (age) => Math.floor(Math.abs(80-age) / 11.86);
