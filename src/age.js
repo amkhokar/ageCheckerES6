@@ -3,5 +3,9 @@ export function getEarthAge(year) {
 }
 
 export function getMercuryAge(age) {
-  return Math.floor(age * 0.24);
+  return Math.floor(age * 1.24);
+}
+
+export function getVenusAge(age) {
+  return Math.floor(age * 5);
 }
