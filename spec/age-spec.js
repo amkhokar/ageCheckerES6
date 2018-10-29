@@ -17,4 +17,9 @@ describe('Age', function () {
     var result = getVenusAge(42);
     expect(test).toEqual(result);
   });
+  it('should test whether Mars age is accurate', function () { 
+    var test = Math.floor(42 / 1.88);
+    var result = getVenusAge(42);
+    expect(test).toEqual(result);
+  });
 });
