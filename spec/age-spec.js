@@ -8,12 +8,12 @@ describe('Age', function () {
     expect(age).toEqual(result);
   });
   it('should test if Mercury age is accurate', function () { 
-    let test = Math.floor(42 * 1.24);
+    let test = Math.floor(42 / 0.24);
     let result = getMercuryAge(42);
     expect(test).toEqual(result);
   });
   it('should test if Venus age is accurate', function () { 
-    let test = Math.floor(42 * 1.62);
+    let test = Math.floor(42 / 0.62);
     let result = getVenusAge(42);
     expect(test).toEqual(result);
   });
@@ -38,12 +38,12 @@ describe('Age', function () {
     expect(test).toEqual(result);
   });
   it('should test if Mercury life expectancy is accurate', function () { 
-    let test = Math.floor((80-55) * 1.24);
+    let test = Math.floor((80-55) / 0.24);
     let result = getMercuryLifeExpectancy(55);
     expect(test).toEqual(result);
   });
   it('should test if Venus life expectancy is accurate', function () { 
-    let test = Math.floor((80-55) * 1.62);
+    let test = Math.floor((80-55) / 0.62);
     let result = getVenusLifeExpectancy(55);
     expect(test).toEqual(result);
   });
